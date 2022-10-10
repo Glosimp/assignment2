@@ -1,0 +1,309 @@
+States,Fuel Type ,Year,Value
+New South Wales,Aviation gasoline,2010,0.50
+New South Wales,Aviation gasoline,2011,0.50
+New South Wales,Aviation gasoline,2012,0.40
+New South Wales,Aviation gasoline,2013,0.40
+New South Wales,Aviation gasoline,2014,0.40
+New South Wales,Aviation gasoline,2015,0.40
+New South Wales,Aviation gasoline,2016,0.30
+New South Wales,Aviation gasoline,2017,0.20
+New South Wales,Aviation gasoline,2018,0.10
+New South Wales,Aviation gasoline,2019,0.10
+New South Wales,Aviation gasoline,2020,0.10
+New South Wales,LPG,2010,29.70
+New South Wales,LPG,2011,30.20
+New South Wales,LPG,2012,28.50
+New South Wales,LPG,2013,27.20
+New South Wales,LPG,2014,24.70
+New South Wales,LPG,2015,21.80
+New South Wales,LPG,2016,16.50
+New South Wales,LPG,2017,13.50
+New South Wales,LPG,2018,13.80
+New South Wales,LPG,2019,12.60
+New South Wales,LPG,2020,12.10
+New South Wales,Natural Gas,2010,146.50
+New South Wales,Natural Gas,2011,142.10
+New South Wales,Natural Gas,2012,157.40
+New South Wales,Natural Gas,2013,167.00
+New South Wales,Natural Gas,2014,163.50
+New South Wales,Natural Gas,2015,164.80
+New South Wales,Natural Gas,2016,143.60
+New South Wales,Natural Gas,2017,144.10
+New South Wales,Natural Gas,2018,139.20
+New South Wales,Natural Gas,2019,141.90
+New South Wales,Natural Gas,2020,136.30
+New South Wales,Electricity,2010,287.50
+New South Wales,Electricity,2011,277.60
+New South Wales,Electricity,2012,264.50
+New South Wales,Electricity,2013,257.90
+New South Wales,Electricity,2014,261.20
+New South Wales,Electricity,2015,268.10
+New South Wales,Electricity,2016,271.80
+New South Wales,Electricity,2017,275.90
+New South Wales,Electricity,2018,278.30
+New South Wales,Electricity,2019,274.50
+New South Wales,Electricity,2020,271.70
+Victoria,Aviation gasoline,2010,0.50
+Victoria,Aviation gasoline,2011,0.50
+Victoria,Aviation gasoline,2012,0.40
+Victoria,Aviation gasoline,2013,0.40
+Victoria,Aviation gasoline,2014,0.40
+Victoria,Aviation gasoline,2015,0.40
+Victoria,Aviation gasoline,2016,0.50
+Victoria,Aviation gasoline,2017,0.40
+Victoria,Aviation gasoline,2018,0.60
+Victoria,Aviation gasoline,2019,0.60
+Victoria,Aviation gasoline,2020,0.60
+Victoria,LPG,2010,34.60
+Victoria,LPG,2011,33.20
+Victoria,LPG,2012,34.00
+Victoria,LPG,2013,36.70
+Victoria,LPG,2014,34.30
+Victoria,LPG,2015,33.40
+Victoria,LPG,2016,27.30
+Victoria,LPG,2017,17.80
+Victoria,LPG,2018,14.00
+Victoria,LPG,2019,13.40
+Victoria,LPG,2020,10.80
+Victoria,Natural Gas,2010,265.70
+Victoria,Natural Gas,2011,270.70
+Victoria,Natural Gas,2012,280.20
+Victoria,Natural Gas,2013,255.80
+Victoria,Natural Gas,2014,259.80
+Victoria,Natural Gas,2015,256.00
+Victoria,Natural Gas,2016,262.00
+Victoria,Natural Gas,2017,267.70
+Victoria,Natural Gas,2018,260.00
+Victoria,Natural Gas,2019,261.00
+Victoria,Natural Gas,2020,241.00
+Victoria,Electricity,2010,185.60
+Victoria,Electricity,2011,187.50
+Victoria,Electricity,2012,182.50
+Victoria,Electricity,2013,179.10
+Victoria,Electricity,2014,178.60
+Victoria,Electricity,2015,177.90
+Victoria,Electricity,2016,170.70
+Victoria,Electricity,2017,172.80
+Victoria,Electricity,2018,171.70
+Victoria,Electricity,2019,174.00
+Victoria,Electricity,2020,176.00
+Queensland,Aviation gasoline,2010,0.70
+Queensland,Aviation gasoline,2011,0.80
+Queensland,Aviation gasoline,2012,0.70
+Queensland,Aviation gasoline,2013,0.60
+Queensland,Aviation gasoline,2014,0.60
+Queensland,Aviation gasoline,2015,0.60
+Queensland,Aviation gasoline,2016,0.70
+Queensland,Aviation gasoline,2017,0.70
+Queensland,Aviation gasoline,2018,0.60
+Queensland,Aviation gasoline,2019,0.60
+Queensland,Aviation gasoline,2020,0.70
+Queensland,LPG,2010,16.20
+Queensland,LPG,2011,16.30
+Queensland,LPG,2012,15.70
+Queensland,LPG,2013,15.10
+Queensland,LPG,2014,17.00
+Queensland,LPG,2015,15.80
+Queensland,LPG,2016,12.90
+Queensland,LPG,2017,12.10
+Queensland,LPG,2018,11.40
+Queensland,LPG,2019,10.70
+Queensland,LPG,2020,10.20
+Queensland,Natural Gas,2010,190.60
+Queensland,Natural Gas,2011,246.10
+Queensland,Natural Gas,2012,239.80
+Queensland,Natural Gas,2013,258.00
+Queensland,Natural Gas,2014,294.90
+Queensland,Natural Gas,2015,296.40
+Queensland,Natural Gas,2016,309.60
+Queensland,Natural Gas,2017,302.30
+Queensland,Natural Gas,2018,294.00
+Queensland,Natural Gas,2019,313.00
+Queensland,Natural Gas,2020,313.40
+Queensland,Electricity,2010,210.90
+Queensland,Electricity,2011,211.80
+Queensland,Electricity,2012,218.30
+Queensland,Electricity,2013,215.00
+Queensland,Electricity,2014,223.10
+Queensland,Electricity,2015,230.10
+Queensland,Electricity,2016,233.20
+Queensland,Electricity,2017,230.40
+Queensland,Electricity,2018,234.50
+Queensland,Electricity,2019,233.80
+Queensland,Electricity,2020,235.00
+Western Australia,Aviation gasoline,2010,0.50
+Western Australia,Aviation gasoline,2011,0.50
+Western Australia,Aviation gasoline,2012,0.60
+Western Australia,Aviation gasoline,2013,0.50
+Western Australia,Aviation gasoline,2014,0.40
+Western Australia,Aviation gasoline,2015,0.40
+Western Australia,Aviation gasoline,2016,0.30
+Western Australia,Aviation gasoline,2017,0.30
+Western Australia,Aviation gasoline,2018,0.20
+Western Australia,Aviation gasoline,2019,0.20
+Western Australia,Aviation gasoline,2020,0.20
+Western Australia,LPG,2010,7.70
+Western Australia,LPG,2011,8.40
+Western Australia,LPG,2012,8.30
+Western Australia,LPG,2013,7.30
+Western Australia,LPG,2014,6.70
+Western Australia,LPG,2015,6.30
+Western Australia,LPG,2016,5.20
+Western Australia,LPG,2017,4.80
+Western Australia,LPG,2018,4.80
+Western Australia,LPG,2019,4.50
+Western Australia,LPG,2020,4.60
+Western Australia,Natural Gas,2010,495.00
+Western Australia,Natural Gas,2011,503.40
+Western Australia,Natural Gas,2012,515.50
+Western Australia,Natural Gas,2013,536.10
+Western Australia,Natural Gas,2014,539.90
+Western Australia,Natural Gas,2015,561.90
+Western Australia,Natural Gas,2016,595.00
+Western Australia,Natural Gas,2017,643.40
+Western Australia,Natural Gas,2018,668.30
+Western Australia,Natural Gas,2019,693.10
+Western Australia,Natural Gas,2020,671.60
+Western Australia,Electricity,2010,113.00
+Western Australia,Electricity,2011,113.60
+Western Australia,Electricity,2012,119.90
+Western Australia,Electricity,2013,132.10
+Western Australia,Electricity,2014,136.00
+Western Australia,Electricity,2015,139.50
+Western Australia,Electricity,2016,144.10
+Western Australia,Electricity,2017,148.20
+Western Australia,Electricity,2018,150.90
+Western Australia,Electricity,2019,156.20
+Western Australia,Electricity,2020,156.70
+South Australia,Aviation gasoline,2010,0.20
+South Australia,Aviation gasoline,2011,0.20
+South Australia,Aviation gasoline,2012,0.20
+South Australia,Aviation gasoline,2013,0.20
+South Australia,Aviation gasoline,2014,0.10
+South Australia,Aviation gasoline,2015,0.10
+South Australia,Aviation gasoline,2016,0.10
+South Australia,Aviation gasoline,2017,0.10
+South Australia,Aviation gasoline,2018,0.10
+South Australia,Aviation gasoline,2019,0.20
+South Australia,Aviation gasoline,2020,0.20
+South Australia,LPG,2010,0.10
+South Australia,LPG,2011,9.20
+South Australia,LPG,2012,9.20
+South Australia,LPG,2013,7.80
+South Australia,LPG,2014,6.90
+South Australia,LPG,2015,6.50
+South Australia,LPG,2016,5.60
+South Australia,LPG,2017,4.50
+South Australia,LPG,2018,4.30
+South Australia,LPG,2019,3.80
+South Australia,LPG,2020,3.80
+South Australia,Natural Gas,2010,121.80
+South Australia,Natural Gas,2011,125.20
+South Australia,Natural Gas,2012,124.60
+South Australia,Natural Gas,2013,110.10
+South Australia,Natural Gas,2014,99.50
+South Australia,Natural Gas,2015,100.60
+South Australia,Natural Gas,2016,109.60
+South Australia,Natural Gas,2017,120.40
+South Australia,Natural Gas,2018,108.30
+South Australia,Natural Gas,2019,103.70
+South Australia,Natural Gas,2020,92.50
+South Australia,Electricity,2010,57.30
+South Australia,Electricity,2011,55.80
+South Australia,Electricity,2012,56.70
+South Australia,Electricity,2013,57.40
+South Australia,Electricity,2014,56.30
+South Australia,Electricity,2015,57.50
+South Australia,Electricity,2016,55.40
+South Australia,Electricity,2017,55.50
+South Australia,Electricity,2018,55.90
+South Australia,Electricity,2019,56.50
+South Australia,Electricity,2020,56.70
+Tasmania,Aviation gasoline,2010,0.00
+Tasmania,Aviation gasoline,2011,0.00
+Tasmania,Aviation gasoline,2012,0.00
+Tasmania,Aviation gasoline,2013,0.00
+Tasmania,Aviation gasoline,2014,0.00
+Tasmania,Aviation gasoline,2015,0.00
+Tasmania,Aviation gasoline,2016,0.00
+Tasmania,Aviation gasoline,2017,0.00
+Tasmania,Aviation gasoline,2018,0.00
+Tasmania,Aviation gasoline,2019,0.00
+Tasmania,Aviation gasoline,2020,0.00
+Tasmania,LPG,2010,1.50
+Tasmania,LPG,2011,1.50
+Tasmania,LPG,2012,1.30
+Tasmania,LPG,2013,1.30
+Tasmania,LPG,2014,1.20
+Tasmania,LPG,2015,1.40
+Tasmania,LPG,2016,1.40
+Tasmania,LPG,2017,1.40
+Tasmania,LPG,2018,1.30
+Tasmania,LPG,2019,1.30
+Tasmania,LPG,2020,1.30
+Tasmania,Natural Gas,2010,17.70
+Tasmania,Natural Gas,2011,16.20
+Tasmania,Natural Gas,2012,17.70
+Tasmania,Natural Gas,2013,12.40
+Tasmania,Natural Gas,2014,6.60
+Tasmania,Natural Gas,2015,12.90
+Tasmania,Natural Gas,2016,13.20
+Tasmania,Natural Gas,2017,13.90
+Tasmania,Natural Gas,2018,10.60
+Tasmania,Natural Gas,2019,7.40
+Tasmania,Natural Gas,2020,7.30
+Tasmania,Electricity,2010,45.40
+Tasmania,Electricity,2011,42.30
+Tasmania,Electricity,2012,42.80
+Tasmania,Electricity,2013,42.60
+Tasmania,Electricity,2014,42.50
+Tasmania,Electricity,2015,42.70
+Tasmania,Electricity,2016,42.80
+Tasmania,Electricity,2017,44.40
+Tasmania,Electricity,2018,43.10
+Tasmania,Electricity,2019,41.70
+Tasmania,Electricity,2020,42.30
+Northern Territory,Aviation gasoline,2010,0.20
+Northern Territory,Aviation gasoline,2011,0.30
+Northern Territory,Aviation gasoline,2012,0.30
+Northern Territory,Aviation gasoline,2013,0.30
+Northern Territory,Aviation gasoline,2014,0.30
+Northern Territory,Aviation gasoline,2015,0.30
+Northern Territory,Aviation gasoline,2016,0.40
+Northern Territory,Aviation gasoline,2017,0.40
+Northern Territory,Aviation gasoline,2018,0.40
+Northern Territory,Aviation gasoline,2019,0.30
+Northern Territory,Aviation gasoline,2020,0.40
+Northern Territory,LPG,2010,0.80
+Northern Territory,LPG,2011,0.70
+Northern Territory,LPG,2012,0.80
+Northern Territory,LPG,2013,0.70
+Northern Territory,LPG,2014,0.70
+Northern Territory,LPG,2015,0.80
+Northern Territory,LPG,2016,0.80
+Northern Territory,LPG,2017,0.60
+Northern Territory,LPG,2018,0.70
+Northern Territory,LPG,2019,0.50
+Northern Territory,LPG,2020,0.60
+Northern Territory,Natural Gas,2010,44.10
+Northern Territory,Natural Gas,2011,42.00
+Northern Territory,Natural Gas,2012,45.30
+Northern Territory,Natural Gas,2013,47.40
+Northern Territory,Natural Gas,2014,44.90
+Northern Territory,Natural Gas,2015,49.80
+Northern Territory,Natural Gas,2016,48.10
+Northern Territory,Natural Gas,2017,46.90
+Northern Territory,Natural Gas,2018,86.10
+Northern Territory,Natural Gas,2019,108.70
+Northern Territory,Natural Gas,2020,106.10
+Northern Territory,Electricity,2010,11.40
+Northern Territory,Electricity,2011,11.40
+Northern Territory,Electricity,2012,12.10
+Northern Territory,Electricity,2013,12.50
+Northern Territory,Electricity,2014,10.80
+Northern Territory,Electricity,2015,11.00
+Northern Territory,Electricity,2016,10.80
+Northern Territory,Electricity,2017,12.60
+Northern Territory,Electricity,2018,16.00
+Northern Territory,Electricity,2019,18.00
+Northern Territory,Electricity,2020,17.60
