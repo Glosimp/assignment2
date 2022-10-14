@@ -1,0 +1,88 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Population by State",
+    "width": 800,
+    "height": 400,
+    "params": [
+      {
+        "name": "slide",
+        "value": 2010,
+        "bind": {
+          "input": "range",
+          "min": 2010,
+          "max": 2020,
+          "step": 1,
+          "name": "Year: "
+          }
+        }
+        ],
+        "projection": {"type": "equirectangular"},
+        "layer": [
+          {
+            "data": {
+              "url": "https://raw.githubusercontent.com/Glosimp/assignment2/main/states.json",
+              "format": {"type": "topojson", "feature": "states"}
+            },
+            "transform": [
+              {
+                "calculate": "'Data is not available in ' + datum.properties.STATE_NAME",
+                "as": "note"
+              }
+            ],
+            "mark": {
+              "type": "geoshape",
+              "fill": "#ddd",
+              "stroke": "white",
+              "strokeWidth": 1
+            },
+            "encoding": {"tooltip": {"field": "note"}}
+          },
+          {
+            "data": {
+              "url": "https://raw.githubusercontent.com/Glosimp/assignment2/main/MAP%20B%20OWEN%201.csv"
+            },
+            "transform": [
+              {
+                "lookup": "State",
+                "from": {
+                  "data": {
+                    "url": "https://raw.githubusercontent.com/Glosimp/assignment2/main/states.json",
+                    "format": {
+                      "type": "topojson",
+                      "feature": "states"
+                    }
+                  },
+                  "key": "properties.STATE_NAME"
+                },
+                "as": "geo"
+              },
+              {"filter": "datum.Year == slide"}
+            ],
+            "mark": {"type": "geoshape", "stroke": "#000000", "strokeWidth": 0.5},
+            "encoding": {
+              "shape": {"field": "geo", "type": "geojson"},
+              "color": {
+                "field": "Population Number",
+                "type": "quantitative",
+                "scale": {
+                  "type": "threshold",
+                  "domain": [1500000,3000000,4500000,6000000,7500000,9000000],
+                  "range": [
+                    "#ffffb2",
+                    "#fed976",
+                    "#feb24c",
+                    "#fd8d3c",
+                    "#fc4e2a",
+                    "#e31a1c",
+                    "#b10026"]}
+            },
+            "tooltip" :[
+              {"field": "State", "type": "nominal", "title": "State"},
+              {"field": "Population Number", "type": "quantitative", "title": "Population Number"}
+            ]
+          }
+        }
+      ],
+      "config": {}
+    }
+    
