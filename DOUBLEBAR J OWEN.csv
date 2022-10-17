@@ -1,0 +1,199 @@
+Source,Trans,Year,Value
+Black Coal,Export,2010,8055.01
+Black Coal,Export,2011,8516.063
+Black Coal,Export,2012,9475.823
+Black Coal,Export,2013,10577.519
+Black Coal,Export,2014,11067.145
+Black Coal,Export,2015,11001.103
+Black Coal,Export,2016,10685.805
+Black Coal,Export,2017,10760.604
+Black Coal,Export,2018,11131.284
+Black Coal,Export,2019,11061.749
+Black Coal,Export,2020,10323.501
+Black Coal,Import,2010,4.72
+Black Coal,Import,2011,1.986
+Black Coal,Import,2012,0.668
+Black Coal,Import,2013,1.234
+Black Coal,Import,2014,2.865
+Black Coal,Import,2015,0.753
+Black Coal,Import,2016,2.603
+Black Coal,Import,2017,5.716
+Black Coal,Import,2018,4.546
+Black Coal,Import,2019,7.417
+Black Coal,Import,2020,3.559
+Coke,Export,2010,0
+Coke,Export,2011,16.3
+Coke,Export,2012,31.175
+Coke,Export,2013,27.335
+Coke,Export,2014,18.463
+Coke,Export,2015,20.398
+Coke,Export,2016,20.097
+Coke,Export,2017,19.705
+Coke,Export,2018,22.823
+Coke,Export,2019,26.486
+Coke,Export,2020,22.688
+Coke,Import,2010,1.639
+Coke,Import,2011,1.126
+Coke,Import,2012,1.243
+Coke,Import,2013,2.446
+Coke,Import,2014,3.517
+Coke,Import,2015,5.106
+Coke,Import,2016,5.016
+Coke,Import,2017,6.339
+Coke,Import,2018,12.665
+Coke,Import,2019,11.781
+Coke,Import,2020,8.942
+Crude Oil,Export,2010,725.969
+Crude Oil,Export,2011,644.683
+Crude Oil,Export,2012,583.172
+Crude Oil,Export,2013,548.221
+Crude Oil,Export,2014,560.635
+Crude Oil,Export,2015,513.977
+Crude Oil,Export,2016,473.743
+Crude Oil,Export,2017,482.272
+Crude Oil,Export,2018,545.351
+Crude Oil,Export,2019,625.608
+Crude Oil,Export,2020,593.033
+Crude Oil,Import,2010,1229.652
+Crude Oil,Import,2011,1141.839
+Crude Oil,Import,2012,1142.417
+Crude Oil,Import,2013,1071.127
+Crude Oil,Import,2014,939.392
+Crude Oil,Import,2015,763.948
+Crude Oil,Import,2016,787.998
+Crude Oil,Import,2017,866.523
+Crude Oil,Import,2018,841.507
+Crude Oil,Import,2019,695.653
+Crude Oil,Import,2020,547.007
+LPG,Export,2010,5.968
+LPG,Export,2011,5.99
+LPG,Export,2012,3.411
+LPG,Export,2013,4.486
+LPG,Export,2014,4.038
+LPG,Export,2015,2.476
+LPG,Export,2016,7.484
+LPG,Export,2017,5.165
+LPG,Export,2018,7.055
+LPG,Export,2019,3.434
+LPG,Export,2020,0.374
+LPG,Import,2010,22.826
+LPG,Import,2011,26.283
+LPG,Import,2012,23.593
+LPG,Import,2013,18.757
+LPG,Import,2014,24.62
+LPG,Import,2015,23.598
+LPG,Import,2016,25.776
+LPG,Import,2017,21.417
+LPG,Import,2018,20.606
+LPG,Import,2019,19.819
+LPG,Import,2020,16.864
+Automotive Gasoline,Export,2010,5.968
+Automotive Gasoline,Export,2011,5.99
+Automotive Gasoline,Export,2012,3.411
+Automotive Gasoline,Export,2013,4.486
+Automotive Gasoline,Export,2014,4.038
+Automotive Gasoline,Export,2015,2.476
+Automotive Gasoline,Export,2016,7.484
+Automotive Gasoline,Export,2017,5.165
+Automotive Gasoline,Export,2018,7.055
+Automotive Gasoline,Export,2019,3.434
+Automotive Gasoline,Export,2020,0.374
+Automotive Gasoline,Import,2010,90.727
+Automotive Gasoline,Import,2011,125.572
+Automotive Gasoline,Import,2012,124.936
+Automotive Gasoline,Import,2013,123.061
+Automotive Gasoline,Import,2014,189.271
+Automotive Gasoline,Import,2015,227.007
+Automotive Gasoline,Import,2016,237.725
+Automotive Gasoline,Import,2017,218.131
+Automotive Gasoline,Import,2018,207.465
+Automotive Gasoline,Import,2019,201.98
+Automotive Gasoline,Import,2020,263.965
+Fuel Oil,Export,2010,7.721
+Fuel Oil,Export,2011,19.252
+Fuel Oil,Export,2012,8.743
+Fuel Oil,Export,2013,1.869
+Fuel Oil,Export,2014,4.299
+Fuel Oil,Export,2015,7.178
+Fuel Oil,Export,2016,12.624
+Fuel Oil,Export,2017,9.39
+Fuel Oil,Export,2018,8.506
+Fuel Oil,Export,2019,10.984
+Fuel Oil,Export,2020,16.295
+Fuel Oil,Import,2010,61.824
+Fuel Oil,Import,2011,64.278
+Fuel Oil,Import,2012,66.563
+Fuel Oil,Import,2013,53.037
+Fuel Oil,Import,2014,10.333
+Fuel Oil,Import,2015,13.179
+Fuel Oil,Import,2016,11.305
+Fuel Oil,Import,2017,28.659
+Fuel Oil,Import,2018,29.374
+Fuel Oil,Import,2019,25.225
+Fuel Oil,Import,2020,12.335
+Other Petroleum Products,Export,2010,7.503
+Other Petroleum Products,Export,2011,4.83
+Other Petroleum Products,Export,2012,1.551
+Other Petroleum Products,Export,2013,2.152
+Other Petroleum Products,Export,2014,2.641
+Other Petroleum Products,Export,2015,2.107
+Other Petroleum Products,Export,2016,5.778
+Other Petroleum Products,Export,2017,12.798
+Other Petroleum Products,Export,2018,16.329
+Other Petroleum Products,Export,2019,11.468
+Other Petroleum Products,Export,2020,13.66
+Other Petroleum Products,Import,2010,20.36
+Other Petroleum Products,Import,2011,20.154
+Other Petroleum Products,Import,2012,21.962
+Other Petroleum Products,Import,2013,27.125
+Other Petroleum Products,Import,2014,22.906
+Other Petroleum Products,Import,2015,19.569
+Other Petroleum Products,Import,2016,22.288
+Other Petroleum Products,Import,2017,23.125
+Other Petroleum Products,Import,2018,22.633
+Other Petroleum Products,Import,2019,20.332
+Other Petroleum Products,Import,2020,20.372
+Natural Gas,Export,2010,1101.981
+Natural Gas,Export,2011,1041.36
+Natural Gas,Export,2012,1298.109
+Natural Gas,Export,2013,1283.933
+Natural Gas,Export,2014,1382.526
+Natural Gas,Export,2015,2016.487
+Natural Gas,Export,2016,2855.194
+Natural Gas,Export,2017,3376.402
+Natural Gas,Export,2018,4095.61
+Natural Gas,Export,2019,4413.47
+Natural Gas,Export,2020,4314.444
+Natural Gas,Import,2010,221.397
+Natural Gas,Import,2011,193.578
+Natural Gas,Import,2012,232.685
+Natural Gas,Import,2013,233.777
+Natural Gas,Import,2014,207.684
+Natural Gas,Import,2015,226.441
+Natural Gas,Import,2016,206.519
+Natural Gas,Import,2017,186.515
+Natural Gas,Import,2018,201.98
+Natural Gas,Import,2019,179.742
+Natural Gas,Import,2020,207.573
+Total,Export,2010,9984.231
+Total,Export,2011,10322.683
+Total,Export,2012,11487.754
+Total,Export,2013,12528.099
+Total,Export,2014,13112.358
+Total,Export,2015,13630.041
+Total,Export,2016,14138.321
+Total,Export,2017,14747.054
+Total,Export,2018,15922.633
+Total,Export,2019,16310.772
+Total,Export,2020,15420.56
+Total,Import,2010,2104.528
+Total,Import,2011,2134.527
+Total,Import,2012,2263.952
+Total,Import,2013,2239.119
+Total,Import,2014,2192.733
+Total,Import,2015,2213.06
+Total,Import,2016,2281.548
+Total,Import,2017,2420.16
+Total,Import,2018,2408.091
+Total,Import,2019,2242.838
+Total,Import,2020,2113.943
