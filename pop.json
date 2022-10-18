@@ -1,8 +1,9 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Population by State",
-    "width": 800,
-    "height": 400,
+    "width": 500,
+    "height": 300,
+    "background": "#EEF1FF",
     "params": [
       {
         "name": "slide",
@@ -39,7 +40,7 @@
           },
           {
             "data": {
-              "url": "https://raw.githubusercontent.com/Glosimp/assignment2/main/MAP%20B%20OWEN%201.csv"
+              "url": "https://raw.githubusercontent.com/Glosimp/assignment2/main/MAP%20B%20OWEN%20x.csv"
             },
             "transform": [
               {

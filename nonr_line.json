@@ -1,0 +1,49 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Non-Renewable Energy Usage Each state",
+  "width": 225,
+  "height": 150,
+  "background": "#EEF1FF",
+  "description": "Non-Renewable Energy from Each state",
+  "data": {"url": "https://raw.githubusercontent.com/Glosimp/assignment2/main/LINE%20F%20OWEN%201.csv"},
+   "params": [
+    {
+      "name": "Fuel_selection",
+      "value":"Aviation gasoline",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Aviation gasoline",
+          "LPG",
+          "Natural Gas",
+          "Electricity"
+        ],
+        "labels": [
+          "Aviation gasoline",
+          "LPG",
+          "Natural Gas",
+          "Electricity"
+        ],
+        "name": "Type of Fuel: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum.Fuel == Fuel_selection"}
+  ],
+  "mark": {
+    "type": "line",
+    "tooltip": true,
+    "point": true,
+    "interpolate": "natural"
+  },
+  "encoding": {
+    "x": {"field": "Year", "type": "nominal"},
+    "y": {"field": "Value", "type": "quantitative","title": "PJ"},
+    "color": {
+      "field":"States",
+      "scale": {"scheme": "set1"},
+      "legend": null
+  }
+  }
+}
