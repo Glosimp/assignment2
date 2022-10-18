@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>Data Visualisation 2</title>
+  <title>Energy in Australia by Albert Arifin</title>
   <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
@@ -19,7 +18,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
   <!-- CSS file -->
-  <link rel="stylesheet" type="text/css" href="css/multi_styles.css" media="all">
+  <link rel="stylesheet" type="text/css" href="style.css" media="all">
+
 
 
 </head>
@@ -31,77 +31,78 @@
     <!-- pure grid group -->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <h1>Energy in Australia</h1>
-        <p></p>
+        <style>
+            h1 {text-align: center;}
+        </style>
+        <h1>&#9981;Energy in Australia&#127759;</h1>
+        <p><strong><font size="+0.5">The following visualisation will show how the energy inflow and outflow in Australia has changed over the course of 10 years. It also will showcase the change in population as the change in population also affect the energy consumption in the country.</font></strong></p>
       </div>
     </div>
     <!-- end pure grid group -->
 
     <!-- pure grid group -->
     <div class="pure-g">
-      <div class="pure-u-1-3">
-        <div class="description description-left">
-          <h2>Map</h2>
-          <p></p>
+        <div class="pure-u-1-1">
+        <h3 id="center">Energy Consumption and Population Change in Australia&#128205;</h3>
+        <p>The following map shows how energy consumption changed in the span of 10 years. All figures are measured under the unit of PJ(petajoule) which is equivalent to <strong>10^15 Joule [J]</strong>. The state with the high energy consumptions are namely, <strong>Western Australia, Queensland, New South Wales, and Victoria</strong>. Meanwhile, other states such as, <strong>Tasmania, Northern Terirtory, and South Australia</strong>, experienced barely any change in their energy consumption level.</p>
+        <div id="vis1" class="vis-container" ></div>
+        <p>Meanwhile, the following map shows how the population number in Australia has changed over the span of 10 years. The most populated state has always been <strong>New South Wales</strong>. New South Wales population increased by around one million in 10 years. Meanwhile other states like <strong>Western Australia, Tasmania, and Northern Terirtory</strong> experienced the least growth in population number.</p>
+        <div id="vis2" class="vis-container" ></div>
         </div>
-      </div>
-      <div class="pure-u-2-3">
-        <div id="vis1" class="vis-container"></div>
-      </div>
-    </div>
-    <!-- end pure grid group -->
-
-    <!-- pure grid group -->
-    <div class="pure-g">
-      <div class="pure-u-1-2">
-        <div id="vis2" class="vis-container"></div>
-      </div>
-      <div class="pure-u-1-2">
-        <div class="description description-right">
-          <h2>Non-Renewable Energy Source in Australia (by fuel type)</h2>
-          <p></p>
-        </div>
-      </div>
     </div>
     <!-- end pure grid group -->
 
      <!-- pure grid group -->
      <div class="pure-g">
-      <div class="pure-u-1-3">
-        <div class="description description-left">
-          <h2>Renewable Energy Source in Australia (by fuel type)</h2>
-          <p></p>
+        <div class="pure-u-1-1">
+        <h3 id="center">&#x1F4B0; Energy Trade in Australia &#128177;</h3>
+        <p> The following area graph shows the diffrent types of fuel traded by Australia. It consists of the likes of <strong>automotive gasoline, black coal, coke, crude oil, fuel oil, LPG, natural gas, and other petroelum products.</strong> Black coal is the biggest exported type of energy source <strong>(10323.501 PJ in 2020)</strong>; meanwhile, crude oil is the biggest imported energy source <strong>(547.007 PJ in 2020)</strong></p>
+        <div id="vis3" class="vis-container" ></div>
         </div>
-      </div>
-      <div class="pure-u-2-3">
-        <div id="vis3" class="vis-container"></div>
-      </div>
     </div>
     <!-- end pure grid group -->
-    
     <!-- pure grid group -->
-    <div class="pure-g">
-      <div class="pure-u-2-3">
-        <div id="vis4" class="vis-container"></div>
-      </div>
-      <div class="pure-u-1-3">
-        <div class="description description-right">
-          <h2>Non-Renewable v Renewable</h2>
-          <p></p>
+        <div class="pure-g">
+          <div class="pure-u-1-2">
+            <h2 id="left">Renewable and Non-Renewable Energy Change in Australia&#128161;</h2>
+          </div>
+          <div class="pure-u-1-2">
+            <p id="left">The following line graphs show how the change of renewable and non-renewable energy usage change in Australia over the span of 10 years (from 2010 to 2020). The renewable energy consists of <strong>bagasse, biogas, wind, and hydro</strong>. Meanwhile, the non-renewable energy consists of <strong>aviation gasoline, LPG, natural gas, and electricity.</strong></p>
+          </div>
+        <div class="pure-g">
+          <div class="pure-u-1-2">
+            <div id="vis4" class="vis-container2" ></div>
+          </div>
+          <div class="pure-u-1-2">
+            <div id="vis5" class="vis-container2"></div>
+          </div>
         </div>
       </div>
-    </div>
     <!-- end pure grid group -->
-    
+    <!-- pure grid group -->
+            <div class="pure-g">
+              <div class="pure-u-1-1">
+              <h3 id="center">Non-Renewable and Renewable Energy Consumption Proportion</h3>
+              <p> The following pie chart shows the proportion of renewable and non-renewale energy usage in Australia. Most states in Australia had a big proportion of the energy coming from a non-renewable energy soruce up until late 2010s. The state of <strong>Australia and Victoria</strong> had renewable energy above <strong>25%</strong> of their total source in 2020.</p>
+              <div id="vis6" class="vis-container" ></div>
+              </div>
+          </div>
+    <!-- end pure grid group -->
+      <div class="pure-u-1-1 small-font">
+        <p>This visualisation was created by <a href="https://github.com/Glosimp/assignment2" target="_blank">Albert Arifin</a>. </p>
+      </div>
+    </div>
+  </div> <!-- end page -->
 
-  <script type="text/javascript">
-    var specVis1 = "./map.json";
-    var specVis2 = "./nonrenewable line.json";
-    var specVis3 = "./renew vs non pie.json";
-    var specVis4 = "./renewable line.json";
-
+  <script type = "text/javascript">
+    var specVis1 = "./vis/map.json";
+    var specVis2 = "./vis/pop.json";
+    var specVis3 = "./vis/expimp.json";
+    var specVis4 = "./vis/renew_line.json";
+    var specVis5 = "./vis/nonr_line.json";
+    var specVis6 = "./vis/pie.json";
     vegaEmbed('#vis1', specVis1, { "actions": false });
-
+  
     vegaEmbed('#vis2', specVis2, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
@@ -113,6 +114,15 @@
     vegaEmbed('#vis4', specVis4, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
+
+    vegaEmbed('#vis5', specVis5, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+    
+    vegaEmbed('#vis6', specVis6, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
   </script>
 </body>
 
