@@ -1,26 +1,43 @@
-.body {
+body *{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
-    font-weight: 900;
+    color: black;
+    font-weight: 90px;
+    font-size: 60px;
 }
-
+h2 {
+    color: black;
+    font-weight: 90px;
+    font-size: 31px;
+    margin-left: 40px;
+}
+h3 {
+    color: black;
+    font-weight: 90px;
+    font-size: 25px;
+}
 body {
-    background-color: lightgray;
+    background-color:#7895B2
 }
 
 .page {
-    width: 1200px;
-    height: 2100px;
-    background-color: #E5E4E2;
+    width: 850px;
+    background-color:#AEBDCA;
     margin: auto;
     padding: 50px;
     padding-top: 35px;
+    border-radius: 10px;
 }
 
 .vis-container {
     width: 100%;
+    margin-left: 120px;
+}
+.vis-container2 {
+    width: 100%;
+    margin-left: 50px;
 }
 
 .description h2,
@@ -37,9 +54,32 @@ h1 {
 }
 
 .pure-g {
-    margin-bottom: 25px;
+    margin-bottom: 55px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #EEF1FF;
+    font-family: 'Poppins', sans-serif;
 }
 
 .small-font {
     font-size: 14px;
+}
+
+.big {
+    font-size: 100px;
+    font-weight: 50px;
+}
+#center {
+    text-align: center;
+    }
+p.ex1 {
+        margin-left: 50%;
+      }
+#left {
+    text-align: left;
+    }
+
+p {
+    margin-left: 30px;
+    margin-right: 30px;
 }
