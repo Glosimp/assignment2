@@ -1,0 +1,64 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width":500,
+  "height":300,
+  "background": "#EEF1FF",
+  "description": "Renewable vs Non-Renewable",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Glosimp/assignment2/main/PIE%20O%20OWEN%201.csv"
+  },
+  "params":[
+    {   "name": "slide",
+        "value": 2010,
+        "bind": {
+          "input": "range",
+          "min": 2010,
+          "max": 2020,
+          "step": 1,
+          "name": "Year: "
+          }},
+    {
+      "name": "State_select",
+      "value": "New South Wales",
+      "bind": {
+        "input": "select",
+        "options":[
+          "New South Wales",
+          "Victoria",
+          "Queensland",
+          "Western Australia",
+          "South Australia",
+          "Tasmania",
+          "Northern Territory"
+        ],
+        "labels": [
+          "New South Wales",
+          "Victoria",
+          "Queensland",
+          "Western Australia",
+          "South Australia",
+          "Tasmania",
+          "Northern Territory" 
+        ],
+        "name": "Name of State: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum.Year == slide"},
+    {"filter": "datum.State == State_select"}
+  ],
+  "encoding":
+    {"theta": {"field": "PJ", "type": "quantitative", "stack": true},
+    "color": {"field": "Type", "type": "nominal", "legend": {"labelFontSize":10}}
+  },
+  "layer": [{
+    "mark": {"type": "arc", "radius": 115, "tooltip": true}
+  }, 
+  {
+    "mark": {"type": "text", "radius": 145},
+    "encoding": {
+      "text": {"field": "Type", "type": "nominal"}
+    }
+  }]
+}
