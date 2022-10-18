@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400, 
+  "height": 300,
+  "background": "#EEF1FF",
+  "data": {"url": "https://raw.githubusercontent.com/Glosimp/assignment2/main/DOUBLEBAR%20J%20OWEN.csv"},
+      "params": [
+    {
+      "name": "trans_select",
+      "value": "Export",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Export",
+          "Import"
+        ],
+        "name": "Trade Options: "
+      }
+    }
+  ],
+    "transform": [
+    {"filter": "datum.Trans == trans_select"}
+  ],
+  "mark": {"type":"area", "tooltip":true},
+  "encoding": {
+    "x": {
+      "timeUnit": "yearmonth", "field": "Year","title": "Year"},
+    "y": {
+      "aggregate": "sum", "field": "Value", "title": "Energy Value (PJ)"
+    },
+    "color": {
+      "field": "Source",
+      "title": "Energy Source",
+      "scale": {"scheme": "set1"}
+    }
+  }
+}
